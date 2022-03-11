@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    {{>headerlinks}}
+  </head>
+  <body>
+    {{>navbar}}
+
+    <!-- main-header -->
+    <div class="container-fluid mian_header">
+        <div class="row">
+          <div class="col-md-10 col-12 mx-auto">
+
+            <div class="row">
+                
+                <div class="col-md-12 col-12 main_header_left align-items-center ">
+                        <figure class="errimg">
+                            <img src="images/404.png" alt="author" class="img-fluid" title="author">
+                        </figure>
+                    
+                        <p>Welcome to the Weather App</p>
+                        <h1> <span class="text_clr">{{errorMsg}}</span></h1>
+                        <a href="/"><button>Go Back</button></a>
+                    </div>
+                
+            </div>
+
+          </div>
+        </div>
+    </div>
+
+    <!-- Footer Code -->
+    {{>footer}}
+
+  </body>
+</html>

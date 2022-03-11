@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+   {{>headerlinks}}
+  </head>
+  <body>
+      {{>navbar}}
+
+    <!-- main-header -->
+    <div class="container-fluid mian_header">
+        <div class="row">
+          <div class="col-md-10 col-12 mx-auto">
+
+           <div class="mainContent">
+               <form class="tempForm">
+                   <input type="text" name="city" id="cityName" placeholder="Enter your city name" autocomplete="off" >
+                    <input type="submit" value="search" id="submitBtn">
+               </form>
+           </div>
+
+           <div class="tempInfo">
+               <div class="topLayer">
+                   <p id="day">Tuesday</p>
+                   <p id="todayDate">8 March </p>
+               </div>
+
+               <div class="mainLayer ">
+                   <p id="city_name"> Output here</p>
+
+                   <div class="middleLayer data_hide">
+                       <p id="temp"><span id="temp_real_value">0</span> <sup>o</sup>C</p>
+                       <p id="tempStatus"> <i class="fa fa-solid fa-cloud"></i> </p>
+                   </div>
+               </div>
+           </div>
+ 
+          </div>
+        </div>
+    </div>
+
+    <!-- Footer Code -->
+    {{>footer}}
+
+<script src="js/main.js"></script>
+<script>
+    const day = document.getElementById('day');
+    const todayDate = document.getElementById('todayDate');
+    const getCurrentDay = ()=>{
+    const weekday = ["Sun","Mon","Tue","Wed","Thu","Fri","Sat"];
+
+    let currentTime = new Date();
+    let day = weekday[currentTime.getDay()];
+    console.log(day);
+    return day;
+};
+
+const getcurrentMonth = ()=>{
+const months = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+
+    var now = new Date();
+    var month = months[now.getMonth()]; 
+
+    return `${now.getDate()} ${month}`;
+}
+
+todayDate.innerText = getcurrentMonth();
+day.innerText = getCurrentDay();
+</script>
+
+  </body>
+</html>
