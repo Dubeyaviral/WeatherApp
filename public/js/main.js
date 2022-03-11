@@ -10,13 +10,12 @@ const datahide = document.querySelector('.middleLayer');
 const getInfo =async(event)=> {
     event.preventDefault(); 
     let cityVal = cityName.value;
-
     if(cityVal === ""){
         city_name.innerText = "Please write a city name before you search";
         datahide.classList.add('data_hide');
     }else{
         try{
-            let url = `http://api.openweathermap.org/data/2.5/weather?q=${cityVal}&units=metric&appid=af6a864b336408af09c22564975e78d8`;
+            let url = `https://api.openweathermap.org/data/2.5/weather?q=${cityVal}&units=metric&appid=af6a864b336408af09c22564975e78d8`;
             const response = await fetch(url);
             const data = await response.json();
             const arrData = [data];
