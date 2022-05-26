@@ -24,7 +24,7 @@
 - **ExpressJS**- For passing the dta from user to DB and vice versa.  
 - **EJS**- For rendering the data from user to DB and vice versa on the webpages.  
 - **NPM Packages**- Various other NPM packages like Body-Parser etc  
-- **OpenWeather**-The weather info is feathched from this API.
+- **OpenWeather**-The weather info is fetched from this API.
 
 ## Installation
 
