@@ -1,6 +1,6 @@
 # WeatherApp ☁️
 
- **It is a weather app gives us the current weather info.**
+ **It is a weather app which gives us the current weather info.**
 
 ## Some Screenshots of Website
 - **This is our home page where user can click on check now to redirect to weather page.**
