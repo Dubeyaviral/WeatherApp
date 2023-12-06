@@ -2,6 +2,10 @@
 
  **It is a weather app which gives us the current weather info.**
 
+## Hosted URL
+
+- (https://weather-app-b5vc.onrender.com/)
+- 
 ## Some Screenshots of Website
 - **This is our home page where user can click on check now to redirect to weather page.**
 
@@ -15,9 +19,6 @@
 
 ![image](https://user-images.githubusercontent.com/85870610/170430809-4ddec9fd-64b5-4fd3-a247-d94918ae5377.png)
  
-## Hosted URL
-
-- (https://weather-app-b5vc.onrender.com/)
 
 ## Tech Stack used for designing this website
 - **NodeJS**- For rendering the Server side handling of GET and POST requests and connecting to DB 
