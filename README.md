@@ -5,7 +5,7 @@
 ## Hosted URL
 
 - (https://weather-app-b5vc.onrender.com/)
-- 
+
 ## Some Screenshots of Website
 - **This is our home page where user can click on check now to redirect to weather page.**
 
