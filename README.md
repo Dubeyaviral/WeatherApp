@@ -17,7 +17,7 @@
  
 ## Hosted URL
 
-- [(https://weather-avid.herokuapp.com/)](https://weather-app-b5vc.onrender.com/)
+- (https://weather-app-b5vc.onrender.com/)
 
 ## Tech Stack used for designing this website
 - **NodeJS**- For rendering the Server side handling of GET and POST requests and connecting to DB 
